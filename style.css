@@ -84,7 +84,22 @@ header {
     width: 100%;
     z-index: 999;
     background: rgba(255, 255, 255, .9);
+    /**
+     *
+     * 透明的计算方法：
+     * 256*0.9=230.4 取230通过计算转换为十六进制: E6
+     * 
+     **/
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#E6FFFFFF,endColorStr=#E6FFFFFF);
 }
+
+/**
+ * IE9 hack
+ * */
+:root header {
+    filter: none;
+}
+
 header a {
     color: #999;
 }
