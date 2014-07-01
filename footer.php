@@ -3,7 +3,7 @@
     <?php //END .container ?>
 
     <footer>
-        <div class="wrapper">
+        <div class="wrapper gray">
             &copy; <?php echo date('Y') ?> <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a> (fiture.me) 
             / Theme by <a href="http://fiture.me">fiture</a> 
             / Host by <a href="https://www.digitalocean.com/?refcode=a15f62e39857" target="_blank" rel="nofollow">DigitalOcean</a>
