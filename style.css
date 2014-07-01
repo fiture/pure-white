@@ -19,7 +19,7 @@
 **/
 
 body {
-    font: 14px/1.625 Avenir, "Gotham Narrow SSm", 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+    font: 14px/1.625 Avenir, 'Gotham Narrow SSm', 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
     color: #4C4C4C;
 }
 a {
@@ -75,6 +75,7 @@ h1 {
 body {
     padding-top: 100px;
 }
+
 header {
     padding-top: 15px;
     border-bottom: 1px #E2E2E2 solid;
@@ -309,4 +310,46 @@ footer {
     padding: 50px 0;
     border-top: 1px #E2E2E2 solid;
     background-color: #F4F4F6;
+}
+
+/**
+ *
+ * Responsive web design (for ipad,iphone,etc.)
+ * 
+ * 2014-07-01
+ *
+ *
+**/
+
+@media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: portrait),
+
+@media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+{
+    .grid-990 {
+        width: auto;
+        padding: 0 5%;
+    }
+
+    .entry-content img {
+        max-width:100%;
+        height: auto;
+    }
+
+    header .des {
+        display: none;
+    }
+}
+
+@media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+{
+    .g-nav li {
+        margin-left: 10px;
+    }
 }
