@@ -9,7 +9,6 @@
     <?php if(is_single()) : ?>
         <link rel="stylesheet" href="<?php bloginfo( 'template_url' ) ?>/static/css/comment.css" />
     <?php endif; ?>
-    <link rel="shortcut icon" href="<?php bloginfo( 'template_url' ) ?>/favicon.ico" />
     <?php wp_head(); ?>
     <!--[if lt IE 9]>
         <script src="<?php bloginfo('template_url'); ?>/static/js/html5shiv.min.js"></script>
