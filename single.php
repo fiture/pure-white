@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="main grid-990 single-page">
+<div class="main wrapper single-page">
     <?php while ( have_posts() ) : the_post(); ?>
         <article class="post">
             <p class="gray">

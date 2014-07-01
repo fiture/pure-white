@@ -19,7 +19,7 @@
 **/
 
 body {
-    font: 14px/1.625 Avenir, "Gotham Narrow SSm", 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+    font: 14px/1.625 Avenir, 'Gotham Narrow SSm', 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
     color: #4C4C4C;
 }
 a {
@@ -32,8 +32,8 @@ a:hover {
 h1 {
     font-size: 2em;
 }
-.grid-990 {
-    width: 790px;
+.wrapper {
+    max-width: 790px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -78,6 +78,7 @@ h1 {
 body {
     padding-top: 100px;
 }
+
 header {
     padding-top: 15px;
     border-bottom: 1px #E2E2E2 solid;
@@ -312,4 +313,55 @@ footer {
     padding: 50px 0;
     border-top: 1px #E2E2E2 solid;
     background-color: #F4F4F6;
+}
+
+/**
+ *
+ * Responsive web design (for ipad,iphone,etc.)
+ * 
+ * 2014-07-01
+ *
+ *
+**/
+
+@media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+{    
+    .wrapper {
+        width: auto;
+        padding: 0 5%;
+    }
+
+    .entry-content img {
+        max-width:100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .wrapper {
+        width: auto;
+        padding: 0 5%;
+    }
+
+    .entry-content img {
+        max-width:100%;
+        height: auto;
+    }
+
+    header .des {
+        display: none;
+    }
+    .g-nav li {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+        width: auto;
+        padding: 0 5%;
+    }
 }
