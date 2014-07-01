@@ -43,6 +43,9 @@ h1 {
 .gray {
     color: #999;
 }
+.hide {
+    display: none;
+}
 /**
  *
  *  ClearFix
