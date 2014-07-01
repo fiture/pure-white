@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="<?php bloginfo( 'template_url' ) ?>/favicon.ico" />
     <?php wp_head(); ?>
     <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="<?php bloginfo('template_url'); ?>/static/js/html5shiv.min.js"></script>
     <![endif]-->
 </head>
 <body>
