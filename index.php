@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<div class="main grid-990">
+<div class="main wrapper">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <section class="post clearfix">
             <h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php echo the_title_attribute( 'echo=0' ); ?>"><?php the_title(); ?></a></h2>

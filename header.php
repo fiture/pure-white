@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <hgroup class="grid-990">
+        <hgroup class="wrapper">
             <h1 class="logo">
                 <a href="<?php bloginfo('url') ?>" title="FITURE">F<b>I</b>T<b>U</b>RE</a>
             </h1>
@@ -27,7 +27,7 @@
             //自定义菜单
             $args = array(
                 'container' => 'nav',
-                'container_class' => 'g-nav grid-990 clearfix',
+                'container_class' => 'g-nav wrapper clearfix',
                 'theme_location' => 'primary',
                 'item_wrap' => '<ul>%3$s</ul>'
             );

@@ -3,7 +3,7 @@
     <?php //END .container ?>
 
     <footer>
-        <div class="grid-990">
+        <div class="wrapper">
         &copy; <?php echo date('Y') ?> <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a> (fiture.me)
         </div>
     </footer>

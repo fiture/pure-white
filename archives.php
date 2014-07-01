@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="main grid-990">
+<div class="main wrapper">
     <article class="archives">
         <ul class="archive-content clearfix">
             <li>
