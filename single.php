@@ -24,7 +24,7 @@
 
                     <?php
                         /* translators: used between list items, there is a space after the comma */
-                        $categories_list = get_the_category_list(__(' ', 'icever'));
+                        $categories_list = get_the_category_list(__('」「', 'icever'));
                         if ( $categories_list ):
                     ?>
                         <span class="cat-links">
