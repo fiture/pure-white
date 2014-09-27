@@ -7,7 +7,10 @@ if (!function_exists('utf8Substr')) {
           	'$1',$str);
 	}
 }
-elseif (is_single()) {
+if (is_home()){
+    $description = '';
+    $keywords = '';
+} elseif (is_single()) {
     if ($post->post_excerpt)
 	{
         $description  = $post->post_excerpt;
