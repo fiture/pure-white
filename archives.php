@@ -31,7 +31,7 @@
             </li>
             <?php
                 wp_list_categories(array(
-                    title_li => '<h3>站点地图</h3><ul style="margin-bottom: 30px;"><li><a href="http://fiture.me/sitemap.xml">sitemap</a></li></ul> <h3>分类：</h3>'
+                    title_li => '<h3>分类：</h3>'
                 ));
 
             ?>
